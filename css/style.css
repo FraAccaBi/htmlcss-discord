@@ -10,18 +10,19 @@ body{
 .background{
     width: 1356px;
     margin: 0 auto;
-    background-image: url("../img/jumbo.png");
-    background-size: cover;
-    background-color: #3161E0;
-
 }
 .center{
-    width: 957px;
+    padding: 0 200px;
     margin: 0 auto;
 }
-header{
-    height: 500px;
+
+.barra{    
+    background-color: #255EE9;
+    
 }
-
-
+.front{
+    background-image: url("../img/jumbo.png");
+    height: 500px;
+    background-size: cover;
+}
 
