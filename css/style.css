@@ -38,6 +38,7 @@ body{
 .cl_70{
     float: left;
     width: 70%;
+    text-align: center;
 }
 
 .logo{
@@ -50,16 +51,15 @@ nav {
 ul{    
     list-style-type: none;
     padding-top: 20px;
-    padding-left: 80px;
 }
 li{
     display:inline-block;
-    color: white;
-    padding-right: 30px;
-    
+    color: white;   
+    padding: 0px 10px; 
+    font-size: 16px;
 }
 
-a{
+.btn{
     display: inline-block;
     font-family: 'Montserrat';
     color: black;
@@ -68,9 +68,12 @@ a{
     border: 0px;
     text-align: center;
     background-color: white;
-    padding: 0.5rem;
+    padding: 0.75rem;
 }
-
+.cl_15 .btn{
+    margin-top: 12px;
+    margin-left: 67px;
+}
 /*Menu*/
 
 
@@ -84,15 +87,23 @@ a{
 .content{
     text-align: center;
     color: white;
-    width: 614px;
+    width: 871px;
     margin: 0 auto;
+
 }
 h1{
-    font-size: 45px;
-    padding: 100px 0 35px;
+    font-size: 58px;
+    padding: 90px 0 30px;
 }
 .content p{
-    font-size: small;
+    font-size: 20px;
     line-height: 2rem;
+}
+.download_btns .btn{
+    margin: 1rem;
+}
+.dark{
+    background-color: black;
+    color: white;
 }
 
