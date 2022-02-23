@@ -29,7 +29,7 @@ body{
 .barra{    
     background-color: #255EE9;
     padding-top: 20px;
-    padding-bottom: 20px
+    padding-bottom: 20px;
 }
 
 .cl_15{
@@ -79,5 +79,17 @@ button{
     background-image: url("../img/jumbo.png");
     height: 500px;
     background-size: cover;
+    position: relative;
+}
+
+.content{
+    text-align: center;
+    color: white;
+    width: 614px;
+    position: absolute;
+    left: 0;
+}
+.h1{
+    font-size: 50px;
 }
 
