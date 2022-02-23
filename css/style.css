@@ -106,4 +106,28 @@ h1{
     background-color: black;
     color: white;
 }
+/*Front page*/
 
+.a_page, .page_c{
+    background-color: white;
+}
+.b_page, .d_page{
+    background-color: #F6F6F6;
+}
+.cl_75{
+    float: left;
+    width: 75%;
+}
+.cl_75 img{
+    display: block;
+    height: 500px;
+}
+.cl_25{
+    float: left;
+    width: 25%;
+    font-size:x-large;
+}
+
+.main{
+    margin:130px 0;
+}
